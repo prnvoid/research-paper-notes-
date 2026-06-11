@@ -9,8 +9,7 @@ Unidirectional recommendation systems are insufficient in learning dynamic behav
 
 ## Key Idea
 
-Use Transformer encoder with masked item prediction.
-Learns context from both directions and fills in masks.
+- Use Transformer encoder with masked item prediction,i.e. ,  learns context from both directions and fills in masks.
 
 ## Dataset
 
