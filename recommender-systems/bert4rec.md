@@ -3,13 +3,14 @@
 ## Paper
 [BERT4Rec Paper](https://arxiv.org/abs/1904.06690)
 
-## Problem
+## Problem Statement
 
-Sequential recommendation systems only use past interactions.
+Unidirectional recommendation systems are insufficient in learning dynamic behavior sequences.
 
 ## Key Idea
 
 Use Transformer encoder with masked item prediction.
+Learns context from both directions and fills in masks.
 
 ## Dataset
 
