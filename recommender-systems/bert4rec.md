@@ -1,7 +1,7 @@
 # BERT4Rec
 
 ## Paper
-https://arxiv.org/abs/1904.06690
+[BERT4Rec Paper](https://arxiv.org/abs/1904.06690)
 
 ## Problem
 
