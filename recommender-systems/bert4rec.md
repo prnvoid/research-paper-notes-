@@ -39,7 +39,7 @@ Advantages:
 Self-attention allows every item in a sequence to interact with every
 other item.
 
-This helps in identifying relationships between distant items.
+This helps in identifying relationships between distant items for recommendation.
 
 ## Dataset
 
@@ -53,6 +53,7 @@ This helps in identifying relationships between distant items.
 
 ## Weaknesses
 
+- Popularity bias (*Main*)
 - Requires user interaction history
 - Computationally expensive
 
