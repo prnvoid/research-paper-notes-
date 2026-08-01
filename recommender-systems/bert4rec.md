@@ -50,6 +50,8 @@ This helps in identifying relationships between distant items for recommendation
 
 - Bidirectional context
 - Strong performance
+- Outperforms GRU/RNN models
+- Learns long-term preferences
 
 ## Weaknesses
 
@@ -65,9 +67,13 @@ This helps in identifying relationships between distant items for recommendation
 
 ## Ideas For My Project
 
-Compare:
-- Cosine Similarity
-- BERT4Rec
+Content-based
+(audio embeddings)
++
+BERT4Rec
+(sequence embeddings)
+↓
+Hybrid Recommendation
 
 Measure:
 - Precision@K
