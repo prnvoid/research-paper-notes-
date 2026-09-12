@@ -3,11 +3,10 @@
 ## Paper
 
 [Familiarizing with Music: Discovery Patterns for Different Music Discovery Needs](https://arxiv.org/abs/2505.03568)
-(Moscati, Afchar, Schedl & Sguerra — UMAP '25)
 
 ## Problem Statement
 
-Little is known about *how* users discover and explore previously unfamiliar music, and how this exploration behavior differs depending on a user's self-declared need for discovery. Prior work looked at diversity/novelty of consumption, but not the discovery *process* itself.
+Little is known about how users discover and explore previously unfamiliar music, and how this exploration behavior differs depending on a user's self-declared need for discovery. Prior work looked at diversity of consumption, but not the discovery *process* itself.
 
 ## Key Idea
 
@@ -18,39 +17,35 @@ Little is known about *how* users discover and explore previously unfamiliar mus
 ### Discovery vs. Exploration
 
 - **Discovery**: listening to a track/artist not previously listened to.
-- Framed against the idea that music liking rises with familiarity, then peaks and declines — so a good recommender needs to balance familiar and unfamiliar content.
+- This is done with the idea that music liking rises with familiarity, then peaks and declines after a possible saturation point or anything - so a good recommender needs to balance familiar and unfamiliar content simultaneously to have the best desired results.
 
 ### Discovery Needs
 
 - Users self-report their interest in unfamiliar music via survey (varying "discovery needs": low → high).
 - This is treated as a trait to correlate against streaming behavior, rather than assumed from listening history alone.
 
-### Track Cluster Labels
-
-- Tracks are grouped into similarity clusters using **co-occurrence in user-generated playlists**, giving each track a cluster label used to measure genre/type representativeness of what users explore.
-
 ## Dataset
 
-- Deezer (major music streaming platform)
+- Deezer (music streaming platform)
 - Survey responses + corresponding streaming histories
 
 ## Strengths
 
-- Grounds "discovery need" in real self-reported data instead of a proxy
-- Combines qualitative (survey) and behavioral (streaming logs) signals
-- Identifies concrete, measurable patterns (popularity, genre representativeness) rather than only diversity metrics
+- Grounds "discovery need" in real self-reported data instead of a proxy.
+- Combines survey and streaming logs both combining two differing techniques.
+- Identifies concrete, measurable patterns (popularity, genre representativeness) rather than only diversity metrics.
 
 ## Weaknesses
 
-- Survey-based labels rely on self-report accuracy (*Main*)
-- Single platform (Deezer) — may not generalize to other services
+- Survey-based labels rely on self-report accuracy.
+- Single platform (Deezer) — may not generalize well to other services due to differing user bases.
 - Correlational, not causal — doesn't test whether nudging discovery changes stated needs
 
 ## My Takeaways
 
 1. Confirms that users with higher declared discovery interest do listen to more diverse music and explore more within the same time window.
 2. When exploring, users don't pick unfamiliar tracks randomly — clear **popularity** and **genre representativeness** patterns emerge, and these patterns differ by discovery-need group.
-3. Opens the door to *inferring* discovery need directly from streaming data (no survey required) — relevant for cold-start / implicit personalization.
+3. Opens the door to *inferring* discovery need directly from streaming data (no survey required) — relevant for cold-start personalization.
 
 ## Ideas For My Project
 
