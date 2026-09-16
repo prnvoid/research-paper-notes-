@@ -73,9 +73,9 @@ https://github.com/mdeff/fma
 ### Phase 2 — Content-Based Recommendation
 
 * [x] Feature engineering
-* [ ] TF-IDF vectorization
-* [ ] Cosine similarity
-* [ ] Song recommendation pipeline
+* [x] TF-IDF vectorization
+* [x] Cosine similarity
+* [x] Song recommendation pipeline
 
 ### Phase 3 — Audio-Based Recommendation
 
