@@ -9,8 +9,6 @@ Brett Binst and Annelien Smets
 **Paper type:** Questionnaire and measurement-framework research  
 **Primary contribution:** A modular instrument for measuring users' *experienced serendipity* when interacting with recommender systems.
 
-> **Reading note:** These notes are based on the supplied v1 PDF. The paper develops and cognitively validates questionnaire items; it does not propose a new music-recommendation model or report a head-to-head recommender benchmark.
-
 ## Problem Statement
 
 Serendipity is a desirable outcome in recommender systems, but research has measured it inconsistently. Some studies use novelty as a proxy, some ask whether a recommendation was surprising, and others create their own questionnaire items. These approaches can measure different experiences while all claiming to measure serendipity, making results difficult to compare.
